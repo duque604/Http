@@ -17,20 +17,3 @@ function Http() {
     };
 }
 
-
-/*
-function Http() {
-    var xhr = new XMLHttpRequest();
-    var resonse = new Object();
-    this.send = function(method,url,object,callBack){
-        xhr.open(method,url+JSON.stringify(object),true);
-        xhr.responseType = "application/JSON";
-        xhr.onload = function(){
-            if(this.readyState==4){ 
-                callBack(this.response);
-            }
-        }
-        xhr.send();
-    };
-}
-*/
